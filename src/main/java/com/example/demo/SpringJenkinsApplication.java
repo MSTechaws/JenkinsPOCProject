@@ -12,6 +12,7 @@ public class SpringJenkinsApplication {
 		return "Welcome to my JENKINS";
 	}
 	public static void main(String[] args) {
+		System.out.println("Welcomee >>>>>>>>>>>>>>>>>");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
